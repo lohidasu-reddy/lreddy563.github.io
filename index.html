@@ -513,12 +513,12 @@
 	
 
 	<div id="fh5co-consult">
-		<div class="video fh5co-video" style="background-image: url(images/nametag.png);">
+		<div class="video fh5co-video" style="background-image: url(images/thank_you.png);">
 			<div class="overlay"></div>
 		</div>
 		<div class="choose animate-box">
 			<h2>Contact</h2>
-			<form action="#">
+			<form action="mailto:lreddy563@gmail.com" method="POST"onsubmit="mailfunction()">
 				<div class="row form-group">
 					<div class="col-md-6">
 						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
@@ -570,6 +570,12 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
 	</div>
 	
+	<script>
+		function mailfunction() {
+			alert("Thank you! You details has been submited Successfully.");
+		}
+	</script>
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
